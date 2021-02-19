@@ -1,0 +1,44 @@
+body {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.canvas {
+  margin: 20px;
+  background-color: lightgrey;
+}
+p {
+  margin: 0px;
+  padding: 0px;
+}
+.shots {
+  color: red;
+  display: block;
+}
+.player-area {
+}
+#shot-area {
+}
+.ai-area {
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+}
+
+#ship {
+  transition: 0.2s;
+}
+
+.ship-enemy {
+  font-size: 30px;
+}
+.asteroid {
+  width: 30px;
+  height: 30px;
+  border: 5px black;
+  background-color: orange;
+}
